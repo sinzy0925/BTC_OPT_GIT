@@ -10,9 +10,9 @@
     "playwright": "^1.45.1"
   },
   "scripts": {
-    "inst:1": "npm install -D playwright",
-    "inst:2": "npx playwright install firefox",
-    "inst:3": "npx playwright install",
+    "inst:1": "npx playwright install",
+    "inst:2": "npm install -D playwright",
+    "inst:3": "npx playwright install firefox",
     "inst:4": "node app.js",
     "start": "run-s inst:1 inst:2 inst:3 inst:4"
   },
