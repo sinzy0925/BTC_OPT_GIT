@@ -5,7 +5,15 @@
   },
   "devDependencies": {
     "@playwright/test": "^1.45.1",
-    "@types/node": "^20.14.10"
+    "@types/node": "^20.14.10",
+    "npm-run-all": "^4.1.5",
+    "playwright": "^1.45.1"
   },
-  "scripts": {}
+  "scripts": {
+    "start": "node app.js",
+    "inst:1": "npm install -D playwright",
+    "inst:2": "npx playwright install firefox",
+    "inst:3": "node app.js",
+    "inst-s": "run-s inst:**"
+  }
 }
