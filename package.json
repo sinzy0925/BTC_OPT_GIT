@@ -10,10 +10,10 @@
     "playwright": "^1.45.1"
   },
   "scripts": {
-    "start": "node app.js",
     "inst:1": "npm install -D playwright",
     "inst:2": "npx playwright install firefox",
     "inst:3": "node app.js",
-    "inst-s": "run-s inst:**"
-  }
+    "start": "run-s inst:**"
+  },
+  "license": "MIT"
 }
