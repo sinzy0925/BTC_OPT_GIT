@@ -5,11 +5,11 @@
 //npm install express
 //npm install dotenv
 
-
+/*
 const execSync = require('child_process').execSync;
 let result = execSync('npx create-playwright@latest --quiet --lang=JavaScript --browser=firefox --install-deps --gha').toString();
 console.error('res1 ' +result);
-
+*/
 
 //LINE Messaging APIを使って、LINE Botから定型文を送信する
 //https://blog.kimizuka.org/entry/2023/11/08/232842

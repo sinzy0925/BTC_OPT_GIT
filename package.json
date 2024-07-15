@@ -10,7 +10,7 @@
     "playwright": "^1.45.1"
   },
   "scripts": {
-    "inst:1": "npx create-playwright@latest --quiet --lang=JavaScript --browser=firefox --install-deps --gha",
+    "inst:1": "npm ci && npx playwright install --with-deps firefox",
     "inst:2": "npm install -D playwright",
     "inst:3": "npx playwright install firefox",
     "inst:4": "node app.js",
